@@ -40,10 +40,6 @@ namespace Supermarket.API.Services
             }
         }
 
-
-
-
-
         public async Task<CategoryResponse> UpdateAsync(int id, Category category)
         {
             var existingCategory = await _categoryRepository.FindByIdAsync(id);
@@ -87,14 +83,6 @@ namespace Supermarket.API.Services
                 return new CategoryResponse($"An error occurred when deleting the category: {ex.Message}");
             }
         }
-
-
-
-
-
-
-
-
 
     }
 }

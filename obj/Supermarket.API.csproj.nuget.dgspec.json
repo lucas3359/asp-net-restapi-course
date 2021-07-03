@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lucashuang/Supermarket.API/Supermarket.API.csproj": {}
+    "/Users/lucashuang/asp-net-restapi-course/Supermarket.API.csproj": {}
   },
   "projects": {
-    "/Users/lucashuang/Supermarket.API/Supermarket.API.csproj": {
+    "/Users/lucashuang/asp-net-restapi-course/Supermarket.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lucashuang/Supermarket.API/Supermarket.API.csproj",
+        "projectUniqueName": "/Users/lucashuang/asp-net-restapi-course/Supermarket.API.csproj",
         "projectName": "Supermarket.API",
-        "projectPath": "/Users/lucashuang/Supermarket.API/Supermarket.API.csproj",
+        "projectPath": "/Users/lucashuang/asp-net-restapi-course/Supermarket.API.csproj",
         "packagesPath": "/Users/lucashuang/.nuget/packages/",
-        "outputPath": "/Users/lucashuang/Supermarket.API/obj/",
+        "outputPath": "/Users/lucashuang/asp-net-restapi-course/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lucashuang/.nuget/NuGet/NuGet.Config"

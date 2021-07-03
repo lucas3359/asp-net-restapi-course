@@ -23,16 +23,21 @@ namespace Supermarket.API
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseInMemoryDatabase("supermarket-api-in-memory");
             });
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
-            services.AddScoped<ICategoryService, CategoryService>();
-            services.AddAutoMapper(typeof(Startup).Assembly);
+            services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductService, ProductService>();
+
+            services.AddAutoMapper(typeof(Startup).Assembly);
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

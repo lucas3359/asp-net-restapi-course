@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VuYEN3RMwj8O/6g3S+AGf10r9XorLwH7JiMYq8/ZrpCnsx7pgfwNxdd+SPTE7Zt8Rd/PLhPZCOqW33qvW7Exjg==",
+  "dgSpecHash": "kwBD/C8dJ8hNXsOLVAS/FWL+xZIxnAshdPIdibHFrStd2R5xT+DRVFhZGFh8u3ITvKDSJ9vc41L7/+4rplwizw==",
   "success": true,
-  "projectFilePath": "/Users/lucashuang/Supermarket.API/Supermarket.API.csproj",
+  "projectFilePath": "/Users/lucashuang/asp-net-restapi-course/Supermarket.API.csproj",
   "expectedPackageFiles": [
     "/Users/lucashuang/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/lucashuang/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
